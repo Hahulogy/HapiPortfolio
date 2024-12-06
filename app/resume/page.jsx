@@ -15,7 +15,7 @@ import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
 const about = {
   title: "About me",
   description:
-    "This is me",
+    "",
   info: [
     {
       fieldName: "Name",
@@ -23,11 +23,11 @@ const about = {
     },
     {
       fieldName: "Phone",
-      fieldValue: "(+251) 924337490",
+      fieldValue: "(+251)-924-337-490",
     },
     {
       fieldName: "Experience",
-      fieldValue: "2+ Years",
+      fieldValue: "3+ Years",
     },
     {
       fieldName: "Telegram",
@@ -60,34 +60,19 @@ const experience = {
     "My Works",
   items: [
     {
-      company: "Tech Solutions Inc.",
-      position: "Full Stack Developer",
-      duration: "2022 - Present",
-    },
-    {
-      company: "Web Design Studio",
-      position: "Front-End Developer Intern",
-      duration: "Summer 2021",
-    },
-    {
-      company: "E-commerce Startup",
-      position: "Freelance Web Developer",
-      duration: "2020 - 2021",
-    },
-    {
-      company: "Tech Academy",
-      position: "Teaching Assistant",
-      duration: "2019 - 2020",
-    },
-    {
-      company: "Digital Agency",
+      company: "Dink Pay",
       position: "UI/UX Designer",
-      duration: "2018 - 2019",
+      duration: "2023",
     },
     {
-      company: "Software Development Firm",
-      position: "Junior Developer",
-      duration: "2017 - 2018",
+      company: "Finote Berehan Z Behere Tsige",
+      position: "Cinematographer and Video Editor",
+      duration: "2024 - Present",
+    },
+    {
+      company: "Eyuel Stationery",
+      position: "Tech Assistant",
+      duration: "2019 - 2020",
     },
   ],
 };
@@ -97,37 +82,27 @@ const education = {
   icon: "/assets/resume/cap.svg",
   title: "My education",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.",
+    "Knowledge I aquired from different ways.",
   items: [
     {
-      institution: "Online Course Platform",
-      degree: "Full Stack Web Development Bootcamp",
+      institution: "Neway Challenge Academy",
+      degree: "High School",
       duration: "2023",
     },
     {
-      institution: "Codecademy",
-      degree: "Front-end Track",
+      institution: "Udemy",
+      degree: "Basic Python",
       duration: "2022",
     },
     {
       institution: "Online Course",
-      degree: "Programming Course",
-      duration: "2020 - 2021",
+      degree: "Figma",
+      duration: "2023",
     },
     {
-      institution: "Tech Institute",
-      degree: "Certified Web Developer",
-      duration: "2019",
-    },
-    {
-      institution: "Design School",
-      degree: "Diploma in Graphic Design",
-      duration: "2016 - 2018",
-    },
-    {
-      institution: "Community College",
-      degree: "Associate Degree in Computer Science",
-      duration: "2014 - 2016",
+      institution: "Self Learn",
+      degree: "Adobe(Photoshop, After Effect) Photoshop, Video Editing, Blender, ...",
+      duration: "2019 - Present",
     },
   ],
 };
@@ -136,39 +111,27 @@ const education = {
 const skills = {
   title: "My skills",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.",
+    "",
   skillList: [
     {
-      icon: <FaHtml5 />,
-      name: "html 5",
+      icon: <FaCamera />,
+      name: "Camera",
     },
     {
-      icon: <FaCss3 />,
-      name: "css 3",
+      icon: <SiBlender />,
+      name: "Blender",
     },
     {
-      icon: <FaJs />,
-      name: "javascript",
+      icon: <SiPython />,
+      name: "Python",
     },
     {
-      icon: <FaReact />,
-      name: "react.js",
+      icon: <FaPhotoshop />,
+      name: "Photoshop",
     },
     {
-      icon: <SiNextdotjs />,
-      name: "next.js",
-    },
-    {
-      icon: <SiTailwindcss />,
-      name: "tailwind.css",
-    },
-    {
-      icon: <FaNodeJs />,
-      name: "node.js",
-    },
-    {
-      icon: <FaFigma />,
-      name: "figma",
+      icon: <FaAftereffect />,
+      name: "After Effect",
     },
   ],
 };
