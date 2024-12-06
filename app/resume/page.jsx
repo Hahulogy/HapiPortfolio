@@ -1,7 +1,7 @@
 "use client";
 
-import { FaCamera, FaPhotoshop, FaAftereffect } from 'react-icons/fa';
-import { SiBlender, SiPython } from 'react-icons/si';
+import { FaCamera, FaPython, SiBlender } from 'react-icons/fa';
+import { SiAdobephotoshop, SiAdobeaftereffects } from "react-icons/si";
 
 // about data
 const about = {
@@ -114,15 +114,15 @@ const skills = {
       name: "Blender",
     },
     {
-      icon: <SiPython />,
+      icon: <FaPython />,
       name: "Python",
     },
     {
-      icon: <FaPhotoshop />,
+      icon: <SiAdobephotoshop />,
       name: "Photoshop",
     },
     {
-      icon: <FaAftereffect />,
+      icon: <SiAdobeaftereffects />,
       name: "After Effect",
     },
   ],
