@@ -114,23 +114,23 @@ const skills = {
     "",
   skillList: [
     {
-      icon: <FaCamera />,
+      icon: <Facamera />,
       name: "Camera",
     },
     {
-      icon: <SiBlender />,
+      icon: <Siblender />,
       name: "Blender",
     },
     {
-      icon: <SiPython />,
+      icon: <Sipython />,
       name: "Python",
     },
     {
-      icon: <FaPhotoshop />,
+      icon: <Faphotoshop />,
       name: "Photoshop",
     },
     {
-      icon: <FaAftereffect />,
+      icon: <Faaftereffect />,
       name: "After Effect",
     },
   ],
