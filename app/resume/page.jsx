@@ -1,15 +1,7 @@
 "use client";
 
-import {
-  FaHtml5,
-  FaCss3,
-  FaJs,
-  FaReact,
-  FaFigma,
-  FaNodeJs,
-} from "react-icons/fa";
-
-import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
+import { FaCamera, FaPhotoshop, FaAftereffect } from 'react-icons/fa';
+import { SiBlender, SiPython } from 'react-icons/si';
 
 // about data
 const about = {
@@ -114,23 +106,23 @@ const skills = {
     "",
   skillList: [
     {
-      icon: <Facamera />,
+      icon: <FaCamera />,
       name: "Camera",
     },
     {
-      icon: <Siblender />,
+      icon: <SiBlender />,
       name: "Blender",
     },
     {
-      icon: <Sipython />,
+      icon: <SiPython />,
       name: "Python",
     },
     {
-      icon: <Faphotoshop />,
+      icon: <FaPhotoshop />,
       name: "Photoshop",
     },
     {
-      icon: <Faaftereffect />,
+      icon: <FaAftereffect />,
       name: "After Effect",
     },
   ],
