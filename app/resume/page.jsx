@@ -15,31 +15,31 @@ import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
 const about = {
   title: "About me",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.",
+    "This is me",
   info: [
     {
       fieldName: "Name",
-      fieldValue: "Luke Coleman",
+      fieldValue: "Nebiyu Elyas",
     },
     {
       fieldName: "Phone",
-      fieldValue: "(+40) 321 654 678",
+      fieldValue: "(+251) 924337490",
     },
     {
       fieldName: "Experience",
-      fieldValue: "12+ Years",
+      fieldValue: "2+ Years",
     },
     {
-      fieldName: "Skype",
-      fieldValue: "luke.01",
+      fieldName: "Telegram",
+      fieldValue: "neb_ela",
     },
     {
       fieldName: "Nationality",
-      fieldValue: "American",
+      fieldValue: "Ethiopian",
     },
     {
       fieldName: "Email",
-      fieldValue: "luke.01@gmail.com",
+      fieldValue: "Nebiuyelyas3@gmail.com",
     },
     {
       fieldName: "Freelance",
@@ -47,7 +47,7 @@ const about = {
     },
     {
       fieldName: "Languages",
-      fieldValue: "English, Spanish",
+      fieldValue: "Amharic, English",
     },
   ],
 };
@@ -57,7 +57,7 @@ const experience = {
   icon: "/assets/resume/badge.svg",
   title: "My experience",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.",
+    "My Works",
   items: [
     {
       company: "Tech Solutions Inc.",
