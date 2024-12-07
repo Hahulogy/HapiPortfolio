@@ -1,7 +1,7 @@
 "use client";
 
-import { FaCamera } from "react-icons/fa";
-import { SiBlender, SiPython, SiAdobephotoshop, SiAdobeaftereffects } from "react-icons/si";
+import { FaCamera, FaPython } from "react-icons/fa";
+import { SiBlender, SiAdobephotoshop, SiAdobeaftereffects } from "react-icons/si";
 
 // about data
 const about = {
