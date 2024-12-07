@@ -1,7 +1,7 @@
 "use client";
 
-import { FaCamera, FaPython } from "react-icons/fa";
-import { SiBlender, SiAdobephotoshop, SiAdobeaftereffects } from "react-icons/si";
+import { FaCamera } from "react-icons/fa"; // Camera Icon from FontAwesome
+import { SiBlender, SiPython, SiAdobephotoshop, SiAdobeaftereffects } from "react-icons/si"; // Blender, Python, Photoshop, After Effects
 
 // about data
 const about = {
@@ -102,29 +102,13 @@ const education = {
 // skills data
 const skills = {
   title: "My skills",
-  description:
-    "",
+  description: "",
   skillList: [
-    {
-      icon: <FaCamera />,
-      name: "Camera",
-    },
-    {
-      icon: <SiBlender />,
-      name: "Blender",
-    },
-    {
-      icon: <FaPython />,
-      name: "Python",
-    },
-    {
-      icon: <SiAdobephotoshop />,
-      name: "Photoshop",
-    },
-    {
-      icon: <SiAdobeaftereffects />,
-      name: "After Effect",
-    },
+    { icon: <FaCamera />, name: "Camera" },
+    { icon: <SiBlender />, name: "Blender" },
+    { icon: <SiPython />, name: "Python" },
+    { icon: <SiAdobephotoshop />, name: "Photoshop" },
+    { icon: <SiAdobeaftereffects />, name: "After Effects" },
   ],
 };
 
