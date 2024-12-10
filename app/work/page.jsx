@@ -22,10 +22,10 @@ import WorkSliderBtns from "@/components/WorkSliderBtns";
 const projects = [
   {
     num: "01",
-    category: "frontend",
+    category: "Frontend",
     title: "project 1",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate magnam modi.",
+      "Made my own Static Portfolio website",
     stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
     image: "/assets/work/thumb1.png",
     live: "",
@@ -33,22 +33,22 @@ const projects = [
   },
   {
     num: "02",
-    category: "fullstack",
+    category: "Motion Graphics",
     title: "project 2",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate magnam modi.",
-    stack: [{ name: "Next.js" }, { name: "Tailwind.css" }, { name: "Node.js" }],
+      "For St Mary Sunday School. Logo Animation",
+    stack: [{ name: "Adobe After Effect" }, { name: "Adobe Photoshop" }],
     image: "/assets/work/thumb2.png",
     live: "",
     github: "",
   },
   {
     num: "03",
-    category: "frontend",
+    category: "UI/UX",
     title: "project 3",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate magnam modi.",
-    stack: [{ name: "Next.js" }, { name: "Tailwind.css" }],
+      "For Dink Pay Digital Service Provider",
+    stack: [{ name: "Figma" }],
     image: "/assets/work/thumb3.png",
     live: "",
     github: "",

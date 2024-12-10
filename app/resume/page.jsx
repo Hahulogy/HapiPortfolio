@@ -1,6 +1,7 @@
 "use client";
 
-import { FaCamera } from "react-icons/fa"; // Camera Icon from FontAwesome
+import { FaCamera, FaHtml5, FaCss3, FaJs, FaReact } from "react-icons/fa"; // Camera Icon from FontAwesome
+import { FaVideo } from "react-icons/fa6";
 import { SiBlender, SiPython, SiAdobephotoshop, SiAdobeaftereffects } from "react-icons/si"; // Blender, Python, Photoshop, After Effects
 
 // about data
@@ -66,6 +67,11 @@ const experience = {
       position: "Tech Assistant",
       duration: "2019 - 2020",
     },
+    {
+      company: "Many More",
+      position: "Different works",
+      duration: "Design, It Support, Hardware Maintainace...",
+    },
   ],
 };
 
@@ -93,8 +99,13 @@ const education = {
     },
     {
       institution: "Self Learn",
-      degree: "Adobe(Photoshop, After Effect) Photoshop, Video Editing, Blender, ...",
+      degree: "Adobe(Photoshop, After Effect), Blender, ...",
       duration: "2019 - Present",
+    },
+    {
+      institution: "Udemy",
+      degree: "Advanced Frontend Web Developer",
+      duration: "2024",
     },
   ],
 };
@@ -105,6 +116,11 @@ const skills = {
   description: "",
   skillList: [
     { icon: <FaCamera />, name: "Camera" },
+    { icon: <FaHtml5 />, name: "HTML5" },
+    { icon: <FaCss3 />, name: "CSS3" },
+    { icon: <FaJs />, name: "JS" },
+    { icon: <FaVideo />, name: "Capcut" },
+    { icon: <FaReact  />, name: "React" },
     { icon: <SiBlender />, name: "Blender" },
     { icon: <SiPython />, name: "Python" },
     { icon: <SiAdobephotoshop />, name: "Photoshop" },

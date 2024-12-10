@@ -13,7 +13,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata = {
-  title: "Nebiyu Portfolio",
+  title: "Nebiyu Elyas",
   description: "Everything you need to know about me",
 };
 
